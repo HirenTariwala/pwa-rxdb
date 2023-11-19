@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.actions {
+  display: flex !important;
+  justify-content: end;
+  align-items: end;
+  gap: 30px;
+}
+.addChecklistBtnContainer {
+  display: flex;
+  justify-content: start;
+}

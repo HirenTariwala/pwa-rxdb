@@ -1,0 +1,42 @@
+.taskListContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 10px;
+}
+.notask {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 50vh;
+}
+.taskContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 10px;
+  /* padding: 20px 20px 10px 20px; */
+}
+.title {
+  padding: 10px 20px;
+}
+.accordian {
+  padding: 0px 20px;
+  background-color: bisque;
+}
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.checkboxData {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.badgeContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

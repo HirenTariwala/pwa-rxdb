@@ -1,0 +1,23 @@
+.homeContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.allTaskContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.taskBtnContainer {
+  display: flex;
+  width: 70%;
+  justify-content: end;
+}
+.addTaskBtn {
+  background-color: antiquewhite;
+  color: red;
+  display: flex;
+  justify-content: end;
+}
